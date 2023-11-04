@@ -1,0 +1,22 @@
+cabal-version:      2.4
+name:               editor
+version:            0.1.0.0
+
+author:             Malik Ammar Faisal
+maintainer:         binfaisal.ammar@gmail.com
+
+extra-source-files: CHANGELOG.md
+
+executable editor-hs
+    main-is:          Main.hs
+
+    -- other-modules:
+
+    -- other-extensions:
+    build-depends:    
+            base ^>=4.17.2.0
+        ,   unix
+        ,   mtl
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
